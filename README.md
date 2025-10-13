@@ -58,7 +58,7 @@ The project emphasizes strong C programming practices, modularity, dynamic memor
 ## 🧑‍💻 How to Build and Run
 
 ### 1. Clone the repository
-git clone https://github.com/alexandros-koutras/Monetary-Transaction-Graph-Management-System
+git clone https://github.com/alexandros-koutras/Monetary-Transaction-Graph-Management-System  
 cd Monetary-Transaction-Graph-Management-System
 
 ### 2. Compile and run
@@ -70,10 +70,10 @@ make run
 
 ## 📂 Project Structure
 
-Monetary-Transaction-Graph-Management-System/
-├── ADTs/           # Abstract Data Type implementations (e.g., Hash Table, Graph Node, Linked List)
-├── data/           # # Example initialisation data files
-├── include/        # Header files (.h) for all ADTs and module interfaces
-├── modules/        # Core application logic and command handlers
-├── Makefile        # Build file for separate compilation
-└── README.md       # Project documentation
+Monetary-Transaction-Graph-Management-System/  
+├── ADTs/           # Abstract Data Type implementations (e.g., Hash Table, Graph Node, Linked List)  
+├── data/           # # Example initialisation data files  
+├── include/        # Header files (.h) for all ADTs and module interfaces  
+├── modules/        # Core application logic and command handlers  
+├── Makefile        # Build file for separate compilation  
+└── README.md       # Project documentation  
