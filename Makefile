@@ -6,6 +6,7 @@ CFLAGS = -Wall -Werror -g -I$(INCLUDE)
 MODULES = ./modules
 INCLUDE = ./include
 ADTs = ./ADTs
+DATA = ./data
 
 # Automatically find all .c files and convert them to .o
 MODULES_SRC = $(wildcard $(MODULES)/*.c)
@@ -34,7 +35,7 @@ $(ADTs)/%.o: $(ADTs)/%.c
 
 # Run the executable
 run: all
-	./$(EXEC) -i init1.txt
+	./$(EXEC) -i $(DATA)/init1.txt
 
 # Clean the build directory
 clean:
