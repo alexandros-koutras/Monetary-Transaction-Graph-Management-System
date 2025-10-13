@@ -34,7 +34,7 @@ $(ADTs)/%.o: $(ADTs)/%.c
 
 # Run the executable
 run: all
-	./$(EXEC) -i init.txt
+	./$(EXEC) -i init1.txt
 
 # Clean the build directory
 clean:

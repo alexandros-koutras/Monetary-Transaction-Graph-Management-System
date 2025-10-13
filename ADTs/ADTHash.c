@@ -7,7 +7,7 @@
 #include "ADTList.h"
 #include "ADTVector.h"
 
-#define MAX 3
+#define MAX 50
 
 static int bucket_id_counter = 0;
 
@@ -77,19 +77,19 @@ HashTable hash_create(DestroyFunc destroy_value) {
         exit(EXIT_FAILURE);
     }
 
-    hash->directory = vector_create(2, NULL);
+    hash->directory = vector_create(50, NULL);
     if (hash->directory == NULL) {
         fprintf(stderr, "Memory allocation failed for directory\n");
         exit(EXIT_FAILURE);
     }
 
-    for (int i = 0; i < 2; i++) {
+    for (int i = 0; i < 50; i++) {
         Bucket bucket = bucket_create(1, 0);
         list_insert(bucket->buddies, create_int(i));
         hash->directory->array[i].value = bucket;
     }
 
-    hash->size = 2;
+    hash->size = 50;
     hash->global_depth = 1;
 
     return hash;
