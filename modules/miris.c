@@ -65,9 +65,9 @@ void circlefind(HashTable hash, Graph graph, uint iban) {
     cycle = graph_DFS(graph, vertex, visited, recStack);
 
     if (cycle == 1) {
-        printf("EYRIKA\n");
+        printf("Found a cycle\n");
     } else {
-        printf("EN EYRIKA\n");
+        printf("No cycle found\n");
     }
 }
 
@@ -79,9 +79,9 @@ void findcircles(HashTable hash, Graph graph, uint iban, int min_sum) {
     int circle = graph_DFS2(graph, vertex, visited, recStack, min_sum);
 
     if (circle == 1) {
-        printf("EYRIKA\n");
+        printf("Found a cycle\n");
     } else {
-        printf("EN EYRIKA\n");
+        printf("No cycle found\n");
     }
 }
 

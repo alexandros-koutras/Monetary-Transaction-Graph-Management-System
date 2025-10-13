@@ -192,7 +192,7 @@ void graph_connected(Graph graph, Vertex vertex, Edge edge) {
     for(ListNode node = vertex->edges->dummy->next; node != NULL; node = node->next) {
         Edge curr_edge = node->value;
         if (curr_edge->destination == edge->destination) {
-            printf("EKTYPOSE OTI EINAI SYNDEDEMENA\n");
+            printf("Connected graph\n");
             break;
         }
     }

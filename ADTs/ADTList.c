@@ -163,7 +163,6 @@ ListNode list_find_node(List list, Pointer value, CompareFunc compare) {
 	// διάσχιση όλης της λίστας, καλούμε την compare μέχρι να επιστρέψει 0
 	//
 	for (ListNode node = list->dummy->next; node != NULL; node = node->next) {
-		printf("aaaaaaa\n");
 		if (compare(value, node->value) == 0) {
 			printf("found\n");
 			return node;		// βρέθηκε

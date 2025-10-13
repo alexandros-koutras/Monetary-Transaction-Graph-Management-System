@@ -33,7 +33,6 @@ int read(HashTable hash, Graph graph) {
                         vertex = vertex_create(iban1);
                         insert(hash, graph, vertex);
                         hash_insert(hash, vertex);
-                        printf("aaaaaa\n");
                     }
                 } else {
                     break;
