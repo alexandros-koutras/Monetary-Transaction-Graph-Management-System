@@ -72,7 +72,7 @@ make run
 
 Monetary-Transaction-Graph-Management-System/  
 ├── ADTs/           # Abstract Data Type implementations (e.g., Hash Table, Graph Node, Linked List)  
-├── data/           # # Example initialisation data files  
+├── data/           # Example initialisation data files  
 ├── include/        # Header files (.h) for all ADTs and module interfaces  
 ├── modules/        # Core application logic and command handlers  
 ├── Makefile        # Build file for separate compilation  
