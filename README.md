@@ -18,13 +18,10 @@ The project emphasizes strong C programming practices, modularity, dynamic memor
 
 ## ⚙️ Features
 
-- **Dynamic Directed Multi-Graph**: Implemented in C. The structure must be able to grow without static size limits to accommodate an       
-    unknown number of nodes (accounts) and edges (transactions).
-- **Weighted Edges (Transactions)**: Each directed edge is weighted by the total transfer amount and the date of the transaction. Multiple
-    edges can exist between any two nodes.
+- **Dynamic Directed Multi-Graph**: The structure must be able to grow without static size limits to accommodate an unknown number of nodes (accounts) and edges (transactions).
+- **Weighted Edges (Transactions)**: Each directed edge is weighted by the total transfer amount and the date of the transaction. Multiple edges can exist between any two nodes.
 - **Hash Table Lookup**:  Utilizes an additional auxiliary structure for O(1) average-case access to a specific account/user by ID.
-- **Modular Design**: The source code consists of at least two, but preferably more, distinct files, using separate compilation via a
-    Makefile.
+- **Modular Design**: The source code consists of at least two distinct files, using separate compilation via a Makefile.
 - **Memory Management**: Full, gradual, and controlled memory deallocation upon program exit.
 - **Runtime Commands**:
     - i / insert —— Insert one or more new nodes (accounts).
